@@ -1,0 +1,230 @@
+* {
+  margin: 0%;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 4rem 8rem;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: grey;
+}
+
+.level-2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* .level-3 {
+  font-size: 40px;
+  font-family: montserrat;
+  font-weight: 300;
+}
+.level-4 {
+  font-size: 36px;
+  font-weight: 200;
+} */
+
+h1,
+h2,
+h5,
+h6 {
+  font-family: arial;
+}
+
+/* ............................................. */
+
+#header {
+  height: 95vh;
+  overflow: hidden;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+#nav {
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+#nav .logo {
+  font-size: 3rem;
+}
+
+#nav ul li a {
+  font-size: 20px;
+}
+#nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#nav ul li {
+  margin-left: 2rem;
+}
+
+#main {
+  padding: 0 8rem 4rem;
+  display: flex;
+}
+
+#main h1 {
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+#main .content-bx {
+  font-size: 2.3rem;
+  width: 50%;
+}
+
+.btn {
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+#main .content-bx .cta-btn {
+  background-color: #333;
+  color: #fff;
+  border-color: transparent;
+  margin: 1rem 1rem 0 0;
+}
+#main .content-bx .cta-btn-alt {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 1rem 0 0 0;
+}
+
+#main .img-bx {
+  width: 50%;
+}
+#main .img-bx img {
+  width: 60%;
+  position: relative;
+  left: 100px;
+  filter: drop-shadow(-4px -4px 4px #000);
+  transform: rotate(25deg);
+}
+
+/* ............................ */
+
+/* ================features=========================== */
+
+#features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#features .feature {
+  width: 25%;
+}
+#features i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+/* ...................pricing................. */
+
+#pricing .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 2rem;
+}
+
+.card-header h3 {
+  font-size: 30px;
+  padding: 0.5rem;
+}
+
+.card-body h4 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+#pricing h2 {
+  font-size: 55px;
+}
+
+#pricing .btn {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  border-color: transparent;
+}
+#pricing p {
+  margin-bottom: 1rem;
+}
+
+#pricing .card-body {
+  padding: 1rem;
+}
+
+.card {
+  width: 25%;
+  border-style: groove;
+}
+
+.card-header {
+  border-bottom: groove;
+}
+
+/* review */
+#review {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#review img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+/* ................................................................... */
+
+.download {
+  background-color: #ff4c68;
+}
+
+.download h3 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.download .a-dow-btn {
+  background-color: #333;
+  color: #fff;
+  border-color: transparent;
+  margin: 1rem 1rem 0 0;
+}
+.download .p-dow-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#footer a {
+  color: #000;
+  margin: 0 1rem;
+  font-size: 25px;
+}
+#footer p {
+  margin-top: 1rem;
+}
